@@ -27,7 +27,7 @@ h3{
 p{
     font-family: 'Lexend Deca', Courier, monospace;
     font-weight: 400px;
-    margin-bottom: 30%;
+    margin-bottom: 35%;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     margin-top: -10px;
@@ -66,6 +66,8 @@ a{
     font-family: 'Lexend Deca', Courier, monospace;
 }
 
+
+
 .button{
     display: flex;
     justify-content: center;
@@ -77,6 +79,7 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 #subcontainer:first-child a{
     color:hsl(31, 77%, 52%);
@@ -90,13 +93,9 @@ a{
     color:hsl(179, 100%, 13%);
 }
 
-.button:hover {
+a:hover {
     background-color: transparent;
-    color: white; /* Cambia el color del texto del botón */
-}
-
-a:hover{
-    color: white;
+    color: white !important; 
 }
 
 
