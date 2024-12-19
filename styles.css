@@ -1,0 +1,111 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', Courier, monospace;
+    font-weight: 700;
+}
+
+.container{
+    inset: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    min-width: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+p{
+    font-family: 'Lexend Deca', Courier, monospace;
+    font-weight: 400px;
+    margin-bottom: 30%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+img{
+    width: 60px;
+}
+
+#subcontainer1,#subcontainer2,#subcontainer3{
+    display: flex;
+    flex-direction: column;
+    width: 33.3333333333333%;
+    padding: 5%;
+    min-width: 300px;
+    box-sizing: border-box;
+    align-items: flex-start;
+
+}
+
+#subcontainer1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#subcontainer2{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+#subcontainer3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', Courier, monospace;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-content: center;
+    border-radius: 20px;
+    border:2px solid white;
+    padding: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#subcontainer1 a{
+    color:hsl(31, 77%, 52%);
+}
+
+#subcontainer2 a{
+    color:hsl(184, 100%, 22%);
+}
+
+#subcontainer3 a{
+    color:hsl(179, 100%, 13%);
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white; /* Cambia el color del texto del botón */
+}
+
+a:hover{
+    color: white;
+}
+
+
